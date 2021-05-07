@@ -110,7 +110,7 @@
         value_template: "{{ state_attr('sensor.pollen', 'Species').Tree.Pine }}"
 
       pollen_plataan_count:
-        icon_template: "mdi:nature"
+        icon_template: "mdi:tree-outline"
         friendly_name: "Plataan"
         unit_of_measurement: " /m³"
         value_template: "{{ state_attr('sensor.pollen', 'Species').Tree.Plane }}"
